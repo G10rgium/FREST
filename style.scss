@@ -1636,3 +1636,80 @@ footer {
         }
     }
 }
+
+// log in
+
+.log_in {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+
+    .log {
+        display: flex;
+        position: relative;
+        width: 50%;
+
+        .log1 {
+            gap: 30px;
+            width: 50%;
+            background-color: #395756;
+            color: #A67DB8;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+
+            .top_log {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .input_log {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                input {
+                    background-color: transparent;
+                    border: groove 1px #A67DB8;
+                    height: 25px;
+                    padding-left: 5px;
+                }
+            }
+            .log_button{
+                color: #000f5a;
+                border-color: #000f5a;
+                &:hover{
+                    background-color: #000f5a;
+                    color: #A67DB8;
+                }
+            }
+
+            .bottom_log {
+                gap: 15px;
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    color: #000f5a;
+                }
+            }
+        }
+
+        .log2 {
+            width: 50%;
+        }
+
+        .log_log2{
+            background: url(./Images/PLUM_HAZE2.webp) no-repeat;
+           background-position: center;
+           background-size: 100%;
+        }
+
+        .reg_log2{
+           background: url(./Images/LIME_MARGARITA2.webp) no-repeat;
+           background-position: center;
+           background-size: 130%;
+        }
+    }
+}
