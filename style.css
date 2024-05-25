@@ -259,6 +259,7 @@ article .article_footer span .article_number {
   height: 84%;
   background: url(./Images/BLUEBERRY_ZEST.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .main1 .cans .can .can_img1:hover {
   animation: both 0.0000001s scale_1;
@@ -268,6 +269,7 @@ article .article_footer span .article_number {
   height: 84%;
   background: url(./Images/PLUM-HAZE.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .main1 .cans .can .can_img2:hover {
   animation: both 0.0000001s scale_2;
@@ -277,6 +279,7 @@ article .article_footer span .article_number {
   height: 84%;
   background: url(./Images/GINGER_TANGERINE.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .main1 .cans .can .can_img3:hover {
   animation: both 0.0000001s scale_3;
@@ -286,6 +289,7 @@ article .article_footer span .article_number {
   height: 84%;
   background: url(./Images/LIME_MARGARITA.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .main1 .cans .can .can_img4:hover {
   animation: both 0.0000001s scale_4;
@@ -478,40 +482,48 @@ footer .footer-footer .footer1 {
   from {
     background: url(./Images/BLUEBERRY_ZEST.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/BLUEBERRY_ZEST2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes scale_2 {
   from {
     background: url(./Images/PLUM-HAZE.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/PLUM_HAZE2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes scale_3 {
   from {
     background: url(./Images/GINGER_TANGERINE.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/GINGER_TANGERINE2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes scale_4 {
   from {
     background: url(./Images/LIME_MARGARITA.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/LIME_MARGARITA2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes a_scale {
@@ -523,11 +535,11 @@ footer .footer-footer .footer1 {
   }
 }
 @media screen and (max-width: 1200px) {
-  .mix {
-    flex-direction: column;
+  .main2 {
     align-items: center;
   }
-  .main2 {
+  .main2 .mix {
+    flex-direction: column;
     align-items: center;
   }
 }
@@ -599,14 +611,19 @@ footer .footer-footer .footer1 {
   footer .footer_top .footer_email p {
     font-size: 20px;
   }
+  .shop_main #shop_p {
+    margin-bottom: 100px;
+  }
   .shop_main .cans {
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 20px;
+    margin-bottom: 20px !important;
+    margin-top: 0 !important;
   }
   .shop_main .cans .can {
-    width: 55% !important;
+    width: 70% !important;
   }
   .sub_main .cans {
     flex-direction: column;
@@ -615,16 +632,21 @@ footer .footer-footer .footer1 {
     gap: 20px;
   }
   .sub_main .cans .can {
-    width: 55% !important;
+    width: 80% !important;
+  }
+  .mix_main #mix_pp {
+    margin-bottom: 100px;
   }
   .mix_main .cans {
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
   }
   .mix_main .cans .can {
-    width: 55% !important;
+    width: 80% !important;
     height: 700px !important;
   }
   .about_main {
@@ -672,7 +694,7 @@ footer .footer-footer .footer1 {
   .log_in .log_1 {
     background: url(./Images/PLUM_HAZE2.webp) no-repeat;
     background-position: center;
-    background-size: 125%;
+    background-size: cover;
   }
   .log_in .log_1 .log1 {
     background-color: transparent !important;
@@ -688,7 +710,7 @@ footer .footer-footer .footer1 {
   .log_in .log_2 {
     background: url(./Images/LIME_MARGARITA2.webp) no-repeat;
     background-position: center;
-    background-size: 150%;
+    background-size: cover;
     width: 70%;
   }
   .log_in .log_2 .log1 {
@@ -823,14 +845,19 @@ footer .footer-footer .footer1 {
   footer .footer_top .footer_email label {
     font-size: 12px;
   }
+  .shop_main #shop_p {
+    margin-bottom: 100px;
+  }
   .shop_main .cans {
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
   }
   .shop_main .cans .can {
-    width: 55% !important;
+    width: 70% !important;
   }
   .sub_main .cans {
     flex-direction: column;
@@ -842,15 +869,23 @@ footer .footer-footer .footer1 {
     width: 80% !important;
     height: 600px !important;
   }
+  .mix_main {
+    gap: 20px;
+  }
+  .mix_main #mix_pp {
+    margin-bottom: 100px;
+  }
   .mix_main .cans {
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
   }
   .mix_main .cans .can {
     width: 80% !important;
-    height: 700px !important;
+    height: 750px !important;
   }
   .about_main .aside1 {
     display: flex;
@@ -862,6 +897,7 @@ footer .footer-footer .footer1 {
   }
   .about_main .aside1 p {
     width: 90% !important;
+    text-align: center;
   }
   .about_main .aside2 {
     display: none;
@@ -896,7 +932,7 @@ footer .footer-footer .footer1 {
   .log_in .log_1 {
     background: url(./Images/PLUM_HAZE2.webp) no-repeat;
     background-position: center;
-    background-size: 125%;
+    background-size: cover;
     width: 80% !important;
   }
   .log_in .log_1 .log1 {
@@ -913,7 +949,7 @@ footer .footer-footer .footer1 {
   .log_in .log_2 {
     background: url(./Images/LIME_MARGARITA2.webp) no-repeat;
     background-position: center;
-    background-size: 175%;
+    background-size: cover;
     width: 90% !important;
   }
   .log_in .log_2 .log1 {
@@ -973,6 +1009,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/BLUEBERRY_ZEST.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img1:hover {
   animation: both 0.0000001s scale_1;
@@ -982,6 +1019,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/PLUM-HAZE.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img2:hover {
   animation: both 0.0000001s scale_2;
@@ -991,6 +1029,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/GINGER_TANGERINE.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img3:hover {
   animation: both 0.0000001s scale_3;
@@ -1000,6 +1039,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/LIME_MARGARITA.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img4:hover {
   animation: both 0.0000001s scale_4;
@@ -1009,6 +1049,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/CHERRY_MARTINI.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img5:hover {
   animation: both 0.0000001s scale_5;
@@ -1018,6 +1059,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/GRAPEFRUIT_SANGRIA.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shop_main .cans .can .can_img6:hover {
   animation: both 0.0000001s scale_6;
@@ -1027,20 +1069,24 @@ footer .footer-footer .footer1 {
   from {
     background: url(./Images/CHERRY_MARTINI.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/CHERRY_MARTINI2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes scale_6 {
   from {
     background: url(./Images/GRAPEFRUIT_SANGRIA.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/GRAPEFRUIT_SANGRIA2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 .sub_main {
@@ -1088,6 +1134,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/variety.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .sub_main .cans .can .VARIETY_PACK:hover {
   animation: both 0.0000001s pack_1;
@@ -1097,6 +1144,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/party.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .sub_main .cans .can .PARTY_PACK:hover {
   animation: both 0.0000001s pack_2;
@@ -1106,6 +1154,7 @@ footer .footer-footer .footer1 {
   height: 84%;
   background: url(./Images/refresh.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .sub_main .cans .can .REFRESH_PACK:hover {
   animation: both 0.0000001s pack_3;
@@ -1115,30 +1164,36 @@ footer .footer-footer .footer1 {
   from {
     background: url(./Images/variety.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/variety2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes pack_2 {
   from {
     background: url(./Images/party.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/party2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 @keyframes pack_3 {
   from {
     background: url(./Images/refresh.webp);
     background-position: center;
+    background-size: cover;
   }
   to {
     background: url(./Images/refresh2.webp);
     background-position: center;
+    background-size: cover;
   }
 }
 .mix_main {
@@ -1188,36 +1243,42 @@ footer .footer-footer .footer1 {
   height: 80%;
   background: url(./Images/red_mix.jpg) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .mix_main .cans .can .raspberry {
   width: 125%;
   height: 80%;
   background: url(./Images/raspberry.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .mix_main .cans .can .sunday {
   width: 125%;
   height: 80%;
   background: url(./Images/sunday.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .mix_main .cans .can .yellow {
   width: 125%;
   height: 80%;
   background: url(./Images/yellow_mix.jpg) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .mix_main .cans .can .pink {
   width: 125%;
   height: 80%;
   background: url(./Images/pink.webp) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .mix_main .cans .can .orange {
   width: 125%;
   height: 80%;
   background: url(./Images/orange_mix.jpg) no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .about_main {
@@ -1229,6 +1290,7 @@ footer .footer-footer .footer1 {
   flex-direction: column;
   gap: 30px;
   position: relative;
+  padding: 70px 0;
   left: 5%;
   justify-content: center;
   color: #0526C5;
@@ -1246,10 +1308,10 @@ footer .footer-footer .footer1 {
   font-weight: 10;
 }
 .about_main .aside2 {
-  width: 50%;
+  width: 60%;
   background: url(./Images/cheers.webp) no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .find_main {
@@ -1424,10 +1486,10 @@ footer .footer-footer .footer1 {
 .log_in .log .log_log2 {
   background: url(./Images/PLUM_HAZE2.webp) no-repeat !important;
   background-position: center !important;
-  background-size: 100% !important;
+  background-size: cover !important;
 }
 .log_in .log .reg_log2 {
   background: url(./Images/LIME_MARGARITA2.webp) no-repeat;
   background-position: center;
-  background-size: 130%;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
