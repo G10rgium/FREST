@@ -683,9 +683,10 @@ footer .footer-footer .footer1 {
   .find_section .section_aside1 {
     width: 100% !important;
   }
-  .find_section .section_aside1 .white_button {
-    position: relative;
-    left: 40%;
+  .find_section .section_aside1 #white_find {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .find_section .section_aside2 {
     align-items: center;
@@ -750,10 +751,12 @@ footer .footer-footer .footer1 {
     padding: 30px 0;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
   }
   header .header1 ul {
     display: none;
+  }
+  header .header2 {
+    flex-wrap: wrap;
   }
   .section1 .section_text1 {
     top: 15%;
@@ -910,6 +913,10 @@ footer .footer-footer .footer1 {
   }
   .find_main .Location .article_footer {
     flex-direction: column;
+    width: 70%;
+  }
+  .find_main .Location .article_footer span {
+    width: 100%;
   }
   .find_section {
     flex-direction: column;
@@ -918,9 +925,10 @@ footer .footer-footer .footer1 {
   .find_section .section_aside1 {
     width: 100% !important;
   }
-  .find_section .section_aside1 .white_button {
-    position: relative;
-    left: 44%;
+  .find_section .section_aside1 #white_find {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .find_section .section_aside2 {
     align-items: center;
@@ -1202,6 +1210,9 @@ footer .footer-footer .footer1 {
 .mix_main h1 {
   font-size: 60px;
   font-weight: 100;
+  color: #0526C5;
+}
+.mix_main p {
   color: #0526C5;
 }
 .mix_main .cans {

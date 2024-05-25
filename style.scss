@@ -869,9 +869,10 @@ footer {
         .section_aside1 {
             width: 100% !important;
 
-            .white_button {
-                position: relative;
-                left: 40%;
+            #white_find {
+                display: flex;
+                justify-content: center;
+                width: 100%;
             }
         }
 
@@ -964,12 +965,14 @@ footer {
         padding: 30px 0;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
 
         .header1 {
             ul {
                 display: none;
             }
+        }
+        .header2{
+            flex-wrap: wrap;
         }
     }
 
@@ -1192,6 +1195,10 @@ footer {
 
             .article_footer {
                 flex-direction: column;
+                width: 70%;
+                span{
+                    width: 100%;
+                }
             }
         }
     }
@@ -1203,9 +1210,10 @@ footer {
         .section_aside1 {
             width: 100% !important;
 
-            .white_button {
-                position: relative;
-                left: 44%;
+            #white_find {
+                display: flex;
+                justify-content: center;
+                width: 100%;
             }
         }
 
@@ -1565,6 +1573,9 @@ footer {
     h1 {
         font-size: 60px;
         font-weight: 100;
+        color: #0526C5;
+    }
+    p{
         color: #0526C5;
     }
 
